@@ -10,61 +10,49 @@ Visit our privacy policy at: **[emirkeles.github.io/macrocount](https://emirkele
 
 ### 🏠 Landing Page
 - **URL**: `index.html`
-- **Purpose**: Welcome page with language selection
-- **Features**: Clean design, automatic language detection option
+- **Style**: Plain text HTML (no CSS styling)
+- **Purpose**: Simple navigation with links to privacy policy and contact
 
-### 📖 Privacy Policy (English)
+### 📖 Privacy Policy
 - **URL**: `privacy-policy.html`
-- **Language**: English
-- **Last Updated**: January 28, 2025
-
-### 📖 Gizlilik Politikası (Turkish)
-- **URL**: `privacy-policy-tr.html`
-- **Language**: Turkish (Türkçe)
+- **Language**: English only
+- **Style**: Plain text HTML format
 - **Last Updated**: January 28, 2025
 
 ## 🔗 Quick Links
 
-- **English Privacy Policy**: [privacy-policy.html](https://emirkeles.github.io/macrocount/privacy-policy.html)
-- **Turkish Privacy Policy**: [privacy-policy-tr.html](https://emirkeles.github.io/macrocount/privacy-policy-tr.html)
+- **Privacy Policy**: [privacy-policy.html](https://emirkeles.github.io/macrocount/privacy-policy.html)
 - **Main App Repository**: [MacroTracker](https://github.com/emirkeles/MacroTracker)
 
-## 🚀 Features
+## 🚀 Design Philosophy
 
-### Multilingual Support
-- Full English and Turkish language support
-- Consistent styling across both versions
-- Easy language switching functionality
+### Plain Text HTML
+- **No CSS styling** - Pure HTML markup only
+- **Minimal approach** - Following simple, functional design
+- **Fast loading** - No external resources or complex styling
+- **Accessibility focused** - Screen reader friendly
 
-### Responsive Design
-- Mobile-first responsive design
-- Optimized for all screen sizes
-- Clean, modern UI with Apple-style typography
-
-### SEO Optimized
-- Proper meta tags and OpenGraph support
-- Semantic HTML structure
-- Fast loading times
-
-### Accessibility
-- Screen reader friendly
-- Proper heading hierarchy
-- High contrast colors
+### Browser Compatibility
+- ✅ Universal compatibility (works on any browser)
+- ✅ Mobile friendly (responsive without CSS)
+- ✅ Fast loading times
+- ✅ Low bandwidth usage
 
 ## 🛠️ Technical Details
 
 ### Built With
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with gradients and animations  
-- **JavaScript** - Language switching and navigation
+- **HTML5** - Semantic markup only
 - **GitHub Pages** - Free hosting and deployment
+- **No JavaScript** - Pure static content
+- **No CSS** - Plain text styling
 
-### Browser Support
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers
+### File Structure
+```
+macrocount/
+├── index.html          # Landing page
+├── privacy-policy.html # Privacy policy (English)
+└── README.md          # Documentation
+```
 
 ## 📱 About MacroCount
 
@@ -81,7 +69,6 @@ MacroCount is a React Native calorie tracking application built with:
 - 📊 Nutrition tracking and analytics
 - ⚖️ Weight monitoring
 - 🎯 Personalized calorie goals
-- 🌍 Multilingual support (EN/TR)
 - 🔒 Privacy-focused data handling
 
 ## 📞 Contact
